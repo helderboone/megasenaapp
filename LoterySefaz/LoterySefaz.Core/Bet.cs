@@ -8,7 +8,7 @@ namespace LoterySefaz.Core
 {
     public class Bet
     {
-        public int BetaId { get; set; }
+        public int BetId { get; set; }
 
         public IEnumerable<int> Numbers { get; set; }
 
