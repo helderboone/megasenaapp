@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LoterySefaz.Core
 {
-    public class Class1
+    public class Bet
     {
+        public int BetaId { get; set; }
+
+        public IEnumerable<int> Numbers { get; set; }
+
+        public DateTime BetDate { get; set; }
     }
 }
